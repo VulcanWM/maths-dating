@@ -44,6 +44,60 @@ const questions = [
             { text: "Creative approaches to problem-solving.", value: "Sparx" }
         ]
     },
+    {
+        question: "What’s the best gift a partner could give you to support your learning?",
+        options: [
+            { text: "A fun and interactive learning tool.", value: "Sparx" },
+            { text: "A comprehensive guide or textbook on the subject.", value: "Corbett" },
+            { text: "Access to online games or quizzes that make learning fun.", value: "Sparx" },
+            { text: "A subscription to a platform with varied content.", value: "Sparx" }
+        ]
+    },
+    {
+        question: "How do you prefer to spend your weekends when it comes to studying?",
+        options: [
+            { text: "Participating in fun workshops or events.", value: "Sparx" },
+            { text: "Diving deep into advanced topics at your own pace.", value: "Corbett" },
+            { text: "Collaborating on projects or problem-solving.", value: "Sparx" },
+            { text: "Experimenting with different learning styles.", value: "Sparx" }
+        ]
+    },
+    {
+        question: "What would you choose for a date night that involves learning?",
+        options: [
+            { text: "A trivia night or game show.", value: "Sparx" },
+            { text: "A documentary or educational film.", value: "Corbett" },
+            { text: "An escape room challenge.", value: "Sparx" },
+            { text: "A podcast that dives into interesting topics.", value: "Sparx" }
+        ]
+    },
+    {
+        question: "How do you prefer to communicate when learning with someone?",
+        options: [
+            { text: "Playful banter and quizzes to keep things light.", value: "Sparx" },
+            { text: "In-depth discussions that cover every detail.", value: "Corbett" },
+            { text: "Sharing resources and helpful tips.", value: "Sparx" },
+            { text: "Regular feedback and encouragement.", value: "Sparx" }
+        ]
+    },
+    {
+        question: "What music would you choose to accompany your study sessions?",
+        options: [
+            { text: "Upbeat tunes to keep you energised and motivated.", value: "Sparx" },
+            { text: "Classical or instrumental music for focus.", value: "Corbett" },
+            { text: "Playlists with educational podcasts.", value: "Sparx" },
+            { text: "A mix of genres that inspire creativity.", value: "Sparx" }
+        ]
+    },
+    {
+        question: "How do you feel about group projects?",
+        options: [
+            { text: "I love collaborating with others and sharing ideas.", value: "Sparx" },
+            { text: "I prefer to work independently and dive deep into the subject.", value: "Corbett" },
+            { text: "I enjoy a mix of both, depending on the project.", value: "Sparx" },
+            { text: "I'm all for having fun while learning together!", value: "Sparx" }
+        ]
+    },
 ];
 
 function shuffle(array) {
@@ -103,3 +157,4 @@ function calculateResult() {
 
 document.getElementById('submit').addEventListener('click', calculateResult);
 displayQuiz();
+
